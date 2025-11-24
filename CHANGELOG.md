@@ -1,3 +1,9 @@
+## 1.0.1 — Minor Fixes & Updates 🔧
+
+- Fixed string quote consistency in model classes and `YouTubeDetails`
+- Improved error handling in fetch methods
+- Minor performance improvements
+
 ## 1.0.0 — Initial Release 🚀
 
 - Introduced `youtube_details` package
@@ -12,4 +18,4 @@
 ### What's Next?
 - Pagination for videos & shorts
 - Fetch comments
-- Download thumbnails in HD & 4K
+- Download thumbnails in HD & 4K fix
