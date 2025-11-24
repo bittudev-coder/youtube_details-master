@@ -1,0 +1,17 @@
+# Include the recommended lints from the official Dart lints package
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    # Enforce documentation on all public API members
+    public_member_api_docs: true
+
+    # Optional additional rules you may want for better pub.dev score
+    always_declare_return_types: true
+    always_put_control_body_on_new_line: true
+    avoid_print: false  # You can set true to enforce logging instead of print
+    prefer_final_fields: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_types_as_parameter_names: true
+    prefer_single_quotes: true
